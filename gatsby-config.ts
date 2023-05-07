@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `Pandu Hanif Blog`,
+    siteTitle: `Pandu Hanif`,
     siteTitleAlt: `Hanif Blog`,
     siteHeadline: `A Blog by Pandu Hanif`,
     siteUrl: `https://panduhanif.com`,
@@ -19,7 +19,7 @@ const config: GatsbyConfig = {
   trailingSlash: `never`,
   plugins: [
     {
-      resolve: `panduhanif/blog`,
+      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
         navigation: [
@@ -39,7 +39,7 @@ const config: GatsbyConfig = {
           },
           {
             name: `Homepage`,
-            url: `https://www.panduhanif,com`,
+            url: `https://www.panduhanif.com`,
           },
         ],
       },
