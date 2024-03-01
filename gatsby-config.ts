@@ -17,6 +17,9 @@ const config: GatsbyConfig = {
     author: `Pandu Hanif`,
   },
   trailingSlash: `never`,
+  flags: {
+    DEV_SSR: true,
+  },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
