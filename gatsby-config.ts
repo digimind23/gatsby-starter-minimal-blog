@@ -38,7 +38,7 @@ const config: GatsbyConfig = {
         externalLinks: [
           {
             name: `Instagram`,
-            url: `https://instagram.com/panduhanif`,
+            url: `https://instagram.com/pm.hanif`,
           },
           {
             name: `Homepage`,
